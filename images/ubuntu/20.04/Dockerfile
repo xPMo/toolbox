@@ -1,9 +1,10 @@
 FROM docker.io/library/ubuntu:20.04
 
+ENV NAME=ubuntu-toolbox VERSION=20.04
 LABEL com.github.containers.toolbox="true" \
       com.github.debarshiray.toolbox="true" \
-      name="ubuntu-toolbox" \
-      version="20.04" \
+      name="$NAME" \
+      version="$VERSION" \
       usage="This image is meant to be used with the toolbox command" \
       summary="Base image for creating Ubuntu toolbox containers" \
       maintainer="Debarshi Ray <rishi@fedoraproject.org>"
