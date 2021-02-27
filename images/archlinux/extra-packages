@@ -6,7 +6,7 @@ keyutils
 lsof
 man-db
 man-pages
-mlocate
+plocate
 mtr
 nss-mdns
 openssh
