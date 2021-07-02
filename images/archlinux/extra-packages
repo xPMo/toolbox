@@ -18,6 +18,7 @@ time
 traceroute
 tree
 unzip
+vte-common
 wget
 words
 xorg-xauth
