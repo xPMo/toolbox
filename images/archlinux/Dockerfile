@@ -13,7 +13,6 @@ COPY README.md /
 
 COPY extra-packages /
 COPY sudoers /etc/sudoers.d/10-toolbox
-RUN touch /etc/machine-id
 
 RUN pacman -Syu --needed --noconfirm - < extra-packages
 RUN rm /extra-packages
